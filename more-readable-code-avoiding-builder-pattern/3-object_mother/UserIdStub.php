@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types = 1);
+
+use Faker\Factory;
+
+final class UserIdStub
+{
+    public static function create(string $id)
+    {
+        return new UserId($id);
+    }
+
+    public static function random()
+    {
+        return self::create(Factory::create()->uuid);
+    }
+}
