@@ -1,0 +1,9 @@
+target/
+boot/
+lib_managed/
+src_managed/
+project/plugins/project/
+
+# Application log file and compressed previous logs (see conf/logback.xml)
+var/log/app_log.json
+var/log/app_log-*.gz
