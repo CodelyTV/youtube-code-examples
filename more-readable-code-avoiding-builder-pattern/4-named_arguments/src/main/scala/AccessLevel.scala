@@ -1,2 +1,2 @@
 
-final case class AccessLevel($attributeName$: $AttributeClass$)
+final case class AccessLevel(value: Int)
