@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use Faker\Factory;
 
-final class AccessLevelStub
+final class AccessLevelMother
 {
     public static function create(int $accessLevel)
     {

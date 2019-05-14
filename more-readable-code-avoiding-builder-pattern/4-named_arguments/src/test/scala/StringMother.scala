@@ -1,5 +1,5 @@
 import scala.util.Random
 
-object StringStub {
+object StringMother {
   def random(numChars: Int): String = Random.alphanumeric take numChars mkString ""
 }

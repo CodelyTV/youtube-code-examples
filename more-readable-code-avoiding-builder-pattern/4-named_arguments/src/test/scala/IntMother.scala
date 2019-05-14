@@ -1,6 +1,6 @@
 import scala.util.Random
 
-object IntStub {
+object IntMother {
   def random: Int = Random.nextInt()
 
   def randomUnsigned(max: Int = Int.MaxValue - 1): Int = randomBetween(min = 0, max = max)

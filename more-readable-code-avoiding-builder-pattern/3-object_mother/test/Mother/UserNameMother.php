@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use Faker\Factory;
 
-final class UserNameStub
+final class UserNameMother
 {
     public static function create(string $name)
     {
