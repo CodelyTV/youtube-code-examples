@@ -1,0 +1,22 @@
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "igorw/whitespace-php",
+        "version": "1.0.1",
+        "source": {
+          "url": "https://github.com/igorw/whitespace-php",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "files": ["src/whitespace.php"]
+        }
+      }
+    }
+  ],
+  "require": {
+    "igorw/whitespace-php": "^1.0"
+  }
+}
