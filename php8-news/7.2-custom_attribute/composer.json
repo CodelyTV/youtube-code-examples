@@ -1,0 +1,8 @@
+{
+    "name": "codelytv/php8demoattributes",
+    "autoload": {
+        "psr-4": {
+            "CodelyTv\\": ["src"]
+        }
+    }
+}
