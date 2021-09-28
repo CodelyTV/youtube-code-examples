@@ -12,10 +12,7 @@ final class UserFullName
 
 final class User
 {
-    public function __construct(
-        public readonly UserId $id,
-        public readonly UserFullName $fullName,
-    ) {}
+    public function __construct(public readonly UserId $id, public readonly UserFullName $fullName) {}
 
 //    public function rename(string $newName):void
 //    {
