@@ -6,13 +6,13 @@ enum Editor: string {
     case Sublime = 'Sublime Text';
 }
 
-function is_good(Editor $editor) {
+function is_good(Editor $editor): string
+{
     $yesMessage  = 'Yeah, %s is good';
     $nopeMessage = 'Nope, %s is not good';
 
-    return sprintf(rand(0,1) == 1 ? $yesMessage : $nopeMessage, $editor->value);
+    return sprintf(random_int(0, 1) === 1 ? $yesMessage : $nopeMessage, $editor->value);
 }
-
 
 echo is_good(Editor::VSCode)  . "\n";
 echo is_good(Editor::Idea)    . "\n";

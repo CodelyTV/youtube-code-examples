@@ -7,9 +7,9 @@ enum Editor: string {
 
     public function creator(): string {
         return match ($this) {
-            Editor::VSCode  => 'Microsoft',
-            Editor::Idea    => 'JetBrains',
-            Editor::Sublime => 'Someone',
+            self::VSCode  => 'Microsoft',
+            self::Idea    => 'JetBrains',
+            self::Sublime => 'Someone',
         };
     }
 }
